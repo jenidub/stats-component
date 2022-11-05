@@ -1,9 +1,12 @@
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #090D1B;
   color: white;
   text-align: left;
   font-family: 'Inter', sans-serif;
-  padding: 125px;
+  padding: 75px;
   font-size: 15px;
 }
 
@@ -12,6 +15,7 @@ body {
   display: inline-flex;
   flex-direction: row-reverse;
   width: 100%;
+  max-width: 850px;
   height: 375px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
@@ -38,6 +42,10 @@ header {
 }
 
 #text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
   padding: 30px;
   width: 45%;
 }
@@ -55,14 +63,21 @@ h2,
 p {
   line-height: 20pt;
   color: #8E8CA6;
+  margin: 20px 0px;
+}
+
+h2 {
+  margin: 10px 0px;
 }
 
 #stats-section {
   display: inline-flex;
+  padding: 5px;
+  margin: 5px 0px;
 }
 
 .stats-container {
-  margin: 20px 20px 0px 0px;
+  margin: 10px 20px 0px 0px;
   flex-grow: 1;
 }
 
