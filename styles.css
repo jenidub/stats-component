@@ -99,7 +99,7 @@ h2 {
   }
 
   #content-container {
-    height: 100%;
+    height: 90%;
     width: 100%;
     border-radius: 20px;
     flex-direction: column;
@@ -107,22 +107,25 @@ h2 {
 
   header {
     border-radius: 0px;
+    height: 263px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
   }
 
   img {
     content: url("./images/image-header-mobile.jpg");
-    border-radius: 0px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
   }
 
   #text-container {
     width: 100%;
-    flex-direction: row;
     padding: 10px 0px;
     word-wrap: break-word;
   }
 
   h2 {
-    padding: 20px 40px 10px 40px;
+    padding: 20px 10px 10px 10px;
     margin: 0px;
   }
 
